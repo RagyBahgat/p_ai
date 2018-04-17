@@ -1,0 +1,14 @@
+The project is about how we arrange a puzzle.
+
+We use the copy library to make a copy of the matrix that we use in the puzzle so we can do some tests on it
+to find the minimum moves we can do in the puzzle to solve it.
+
+We used made some methods to help us do the project:
+1- print_puzzle : we use it to print the puzzle.
+2- check        : it checks how many numbers are not in thier places.
+3- mann         : it implements the Manhattan method.
+4- find_zero    : it helps us to find the place of the '0' (which is the blank space in the puzzle).
+5- nodes        : it finds the possible numbers that can move to this palace.
+6- move_node    : moves the number from a place to another.
+7- min_moves    : to get the best number to move which will help in solvong the puzzle in minimum moves.
+8- arrange      : the method which solve the puzzle in the least number of movements.

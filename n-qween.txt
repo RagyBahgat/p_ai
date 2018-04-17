@@ -1,0 +1,16 @@
+The project is about a 8x8 matrix in which we need to put 8 qweens so they don't attack each other .
+
+1- We use the random library to get a random position for the first qween.
+2- We use the copy library to make a copy of the matrix that we use in the n-qween so we can do some tests on it
+   to find the best place to put the next qween.
+
+We used made some methods to help us do the project:
+1- print_qween  : to print the matrix on which we put the qweens.
+2- cancel_nodes : which mark places that the next node can't be put on.
+3- max_nodes    : to get the best place to put the next qween.
+4- calc_nodes   : to calculate the number of places that we can put the next qween into.
+5- find_1       : to check if the row contains a qween or not.
+6- find_x_y     : converts from a number from 0 to 63 to a place in the martix of x and y.
+7- find_pos     : to convert a place of x and y in a matrix a number from 0 to 63.
+8- n_qween      : the method that puts the qween to the best plaace in a row.
+9- n_qween2     : the method that puts the qween to the best plaace in all the matrix 8x8.
